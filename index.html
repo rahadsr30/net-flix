@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netfliex</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Banner Section -->
+    <section
+      class="w-[100%] h-[100vh] bg-[url(images/BD-en-20231106-popsignuptwoweeks-perspective_alpha_website_small.jpg)] bg-center bg-cover"
+    >
+      <div class="w-[100%] h-[100vh] bg-[rgba(0,0,0,0.5)]">
+        <header class="max-w-[1170px] mx-auto">
+          <div
+            class="grid sm:grid-cols-2 grid-cols-[30%_auto] px-2 items-center"
+          >
+            <figure>
+              <img class="w-[148px]" src="images/Netflix_Logo_PMS.png" alt="" />
+            </figure>
+            <div class="flex justify-end gap-3">
+              <div>
+                <select
+                  name=""
+                  id=""
+                  class="text-white bg-black border-2 border-white py-1 px-5 rounded-lg"
+                >
+                  <option value="">English</option>
+                  <option value="">Hindi</option>
+                </select>
+              </div>
+              <button class="bg-[red] px-4 rounded-lg font-semibold text-white">
+                Sign In
+              </button>
+            </div>
+          </div>
+        </header>
+        <div class="max-w-[1170px] mx-auto sm:py-[150px] py-[50px] text-center">
+          <h1 class="text-white text-3xl sm:text-5xl font-bold">
+            Unlimited movies, TV shows, and more
+          </h1>
+          <p class="text-xl text-white font-medium py-5">
+            Watch anywhere. Cancel anytime.
+          </p>
+          <p class="text-lg text-white font-medium">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+          <div class="max-w-[700px] mx-auto mt-7 px-10 sm:px-3">
+            <form
+              action=""
+              class="grid gap-5 sm:grid-cols-[70%_auto] grid-cols-1"
+            >
+              <input
+                class="border-[1px] h-12 pl-5 border-[#ccc] bg-transparent font-semibold rounded-lg text-white"
+                type="email"
+                placeholder="Email Address"
+                required
+              />
+              <button
+                class="text-white text-xl sm:py-0 py-4 bg-[red] px-4 rounded-lg font-semibold"
+              >
+                Get Started
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
