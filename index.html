@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Netfliex</title>
+    <title>Netflix Bangladesh - Watch</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="images/netflix.png" type="image/x-icon" />
   </head>
   <body>
     <!-- Banner Section -->
@@ -59,11 +60,79 @@
                 required
               />
               <button
-                class="text-white text-xl sm:py-0 py-4 bg-[red] px-4 rounded-lg font-semibold"
+                class="text-white text-xl sm:py-0 py-4 bg-[red] px-4 rounded-lg font-semibold hover:bg-[rgb(193,17,25)] duration-300"
               >
-                Get Started
+                Get Started >
               </button>
             </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Enjoy on your TV -->
+    <section
+      class="w-[100%] bg-black border-t-8 border-t-[#333333] sm:py-[50px] py-12"
+    >
+      <div class="max-w-[1170px] mx-auto px-4">
+        <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+          <div class="text-white">
+            <h1 class="sm:text-5xl text-4xl font-bold">Enjoy on your TV</h1>
+            <p class="sm:text-2xl text-lg pt-7">
+              Watch on Smart TVs, Playstation, Xbox, Chromecast, <br />
+              Apple TV, Blu-ray players, and more.
+            </p>
+          </div>
+          <figure class="relative">
+            <video class="absolute w-[80%] left-[10%] bottom-[20%] z-[1]">
+              <source
+                src="images/Netflix Bangladesh - Watch TV Shows Online, Watch Movies Online.m4v"
+              />
+            </video>
+            <img class="relative z-[2]" src="images/tv.png" alt="" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!--Download Section  -->
+    <section
+      class="w-[100%] bg-black border-t-8 border-t-[#333333] sm:py-[70px] py-12"
+    >
+      <div class="max-w-[1170px] mx-auto px-4">
+        <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+          <figure class="relative sm:order-1 order-2">
+            <img src="images/mobile-0819.jpg" alt="" />
+            <div
+              class="sm:w-[60%] w-[90%] absolute sm:left-[20%] left-[5%] border-[1px] border-[#ccc] bottom-[0px] grid grid-cols-[70%_auto] bg-[black] items-center rounded-sm"
+            >
+              <div
+                class="grid grid-cols-[25%_auto] items-center gap-3 p-[10px]"
+              >
+                <img src="images/boxshot.png" alt="" />
+                <div class="text-white">
+                  <h3 class="text-[14px] font-bold">Stranger Things</h3>
+                  <p class="text-[blue]">Downloading...</p>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif"
+                  alt=""
+                />
+              </div>
+            </div>
+          </figure>
+          <div class="text-white sm:order-2 order-1">
+            <h1
+              class="sm:text-5xl text-4xl font-bold sm:leading-[70px] leading-[50px]"
+            >
+              Download your shows <br />
+              to watch offline
+            </h1>
+            <p class="sm:text-2xl text-lg pt-7">
+              Save your favorites easily and always have something to watch.
+            </p>
           </div>
         </div>
       </div>
